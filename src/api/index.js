@@ -2,9 +2,6 @@
 包含n个接口请求函数的模块
 函数的返回值: promise对象
  */
-
-//调用ajax发送请求
-
 import ajax from './ajax'
 // const BASE_URL = 'http://localhost:3000'
 const BASE_URL = '/api'
@@ -28,19 +25,18 @@ export const reqUserInfo = () => ajax(BASE_URL+'/userinfo')
 // 10、用户登出
 export const reqLogout = () => ajax(BASE_URL+'/logout')
 
-// /**
-//  * 获取商家信息
-//  */
-// export const reqShopInfo = () => ajax('/info')
-//
-// /**
-//  * 获取商家评价数组
-//  */
-// export const reqShopRatings = () => ajax('/ratings')
-//
-// /**
-//  * 获取商家商品数组
-//  */
-// export const reqShopGoods = () => ajax('/goods')
+/**
+ * 获取商家信息
+ */
+export const reqShopInfo = () => ajax('/info')
 
-export const
+/**
+ * 获取商家评价数组
+ */
+export const reqShopRatings = () => ajax('/ratings')
+
+/**
+ * 获取商家商品数组
+ */
+export const reqShopGoods = () => ajax('/goods')
+

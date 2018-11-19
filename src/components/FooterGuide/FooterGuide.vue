@@ -63,7 +63,6 @@
     methods: {
       goTo (path) {
         this.$router.replace(path)
-        //replace 替换 而不是push
       }
     }
   }

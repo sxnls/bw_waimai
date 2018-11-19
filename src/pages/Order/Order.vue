@@ -21,6 +21,7 @@
 
 <style  lang="stylus"  rel="stylesheet/stylus">
   .order  //订单
+
     width 100%
     .order_no_login
       padding-top 140px
@@ -44,4 +45,5 @@
         outline none
         border-radius 5px
         padding 10px 20px
+
 </style>
